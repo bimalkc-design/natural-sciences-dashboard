@@ -7,7 +7,7 @@ import plotly.express as px
 from io import BytesIO
 
 st.set_page_config(page_title='Natural Sciences Dashboard',layout='wide')
-DB='natural_sciences.db'
+DB='data/natural_sciences.db'
 PROGRAMMES=['Life Science','Chemistry','Physics']
 
 conn=sqlite3.connect(DB,check_same_thread=False)
